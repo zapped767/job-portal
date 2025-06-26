@@ -74,10 +74,10 @@ public class ProfileController {
 
     @GetMapping("/{userId}")
     public ResponseEntity<ProfileDTO> getProfileByUserId(@PathVariable Long userId){
-       Profile profile=profileService.getProfileByUserId(userId);
+        Profile profile=profileService.getProfileByUserId(userId);
 
-       ProfileDTO createdProfileDTO=profile.toDTO();
-       return new ResponseEntity<>(createdProfileDTO, HttpStatus.OK);
+        ProfileDTO createdProfileDTO=profile.toDTO();
+        return new ResponseEntity<>(createdProfileDTO, HttpStatus.OK);
     }
 
     @PutMapping("/updateProfile/{userId}")

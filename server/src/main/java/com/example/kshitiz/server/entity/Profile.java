@@ -21,7 +21,7 @@ public class Profile {
     @Column(unique = true)
     private String email;
     private String jobTitle;
-//    private String profileUrl;
+    //    private String profileUrl;
     private String company;
     private String location;
     private String about;

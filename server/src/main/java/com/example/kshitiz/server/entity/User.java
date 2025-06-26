@@ -36,7 +36,7 @@ public class User {
     @Enumerated(EnumType.STRING)
     @NotNull(message = "Account Type cannot be null or empty")
     private AccountType accountType;
-//
+    //
     public UserDTO toDTO(){
         return new UserDTO(this.id,this.name,this.email,this.password,this.accountType,null);
     }
