@@ -28,7 +28,7 @@ Follow these steps to set up and run the project locally.
 ###  Clone the Repository
 
 ```bash
-git clone https://github.com/kshitiz11101/JobHunt
+git clone https://github.com/zapped767/JobHunt
 cd client
 npm install
 npm run dev
